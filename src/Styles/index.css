@@ -1,0 +1,43 @@
+:root{
+  --background-color: white;
+  --primary-color: #208AAE;
+  --secondary-color: white;
+  --link-color: white;
+  --content-color: #c7c2c2;
+  --third-color: #18CAE6;
+  --about-text-color: #000;
+  --contact-submit-btn: #208AAE;
+  --settings-border-bottom: #208AAE;
+  --question-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.darkmode {
+  --background-color: #0A0F0D;
+  --primary-color: black;
+  --secondary-color: white;
+  --link-color: white;
+  --content-color: white;
+  --third-color: #ED0713;
+  --about-text-color: white;
+  --contact-submit-btn: white;
+  --settings-border-bottom: white;
+  --question-color: #ED0713;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background-color);
+    margin-top: 50px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}

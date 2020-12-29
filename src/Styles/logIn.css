@@ -1,0 +1,81 @@
+.logInContainerMain {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+ 
+.logInContainer {
+    width: 30%;
+    height: 400px;
+    background: none;
+    border-right: 1px solid var(--third-color);
+    border-left: 1px solid var(--third-color);
+    margin-top: 70px;
+    
+}
+
+.logInHeader {
+    margin-top: -100px;
+    border-bottom: 2px solid var(--third-color);
+    width: 88%;
+    text-align: center;
+    padding-bottom: 10px;
+    align-self: center;
+}
+
+.logInFormHolder {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 320px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logInInput {
+    width: 60%;
+}
+
+.logInSubmit {
+    width: 130px;
+    height: 40px;
+    border: 2px solid var(--contact-submit-btn);
+    background: none;
+    border-radius: 8px;
+    font-weight: 900;
+    color:  var(--contact-submit-btn);
+    margin-top: 20px;
+}
+
+.logInSubmit:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transform: scale(0.95);
+    transition: all 0.5s;
+}
+
+.signUp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: var(--about-text-color);
+    text-align: center;
+    line-height: 30px;
+}
+
+.signUpLinkText {
+   width: 30%;
+}
+
+.signUpLink {
+    color: var(--third-color);
+    cursor: pointer;
+}

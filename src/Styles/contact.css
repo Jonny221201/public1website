@@ -1,0 +1,86 @@
+
+.contactHeader, .askQuestionHeader {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    color: var(--about-text-color);
+    border-bottom: 2px solid var(--third-color);
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: var(--about-text-color);
+    margin-top: 50px;
+    height: 500px;
+   
+}
+
+input, textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid var(--about-text-color);
+    border-radius: 8px;
+    outline: none;
+
+}
+
+.submit-btn {
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    background: none;
+    border: 2px solid var(--contact-submit-btn);
+    border-radius: 0px 8px 8px 0px;
+    color: var(--contact-submit-btn);
+    outline: none;
+    font-weight: 900;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transform: scale(0.95);
+    transition: all 0.5s;
+    
+}
+
+
+
+.formInfo {
+   margin-top: 10px;
+}
+
+.questionForm {
+    height: 300px;
+  
+}
+.askQuestionInfo {
+    margin-bottom: 7px;
+}
+.questionInput {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.questionInput::placeholder {
+    font-size: 16px;
+}
+
+.askQuestionOl {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.askQuestionList {
+    list-style-type: decimal;
+    padding: 10px;
+    color: var(--about-text-color);
+    
+}
+

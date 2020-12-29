@@ -1,0 +1,24 @@
+
+.aboutContainer {
+    background-color: var(--background-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+   
+}
+
+.aboutHeader {
+    margin-top: 20px;
+    color: var(--about-text-color);
+    
+}
+
+.aboutText {
+    margin-top: 30px;
+    text-align: justify;
+    width: 40%;
+    color: var(--about-text-color);
+}

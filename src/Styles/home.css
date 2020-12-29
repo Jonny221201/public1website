@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.content {
+    background-color: var(--content-color);
+    width: 50%;
+    height: 300px;
+   
+
+}
+
+.homeHeader {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.homeText {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: var(--third_color);
+}
